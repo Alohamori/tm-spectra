@@ -1,0 +1,17 @@
+body { background: #141719; }
+select { font-size: 1.25em; }
+
+#spectra {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+}
+
+#spectra img {
+  flex: 1;
+  margin: 5px 0;
+}
+
+@media only screen and (orientation: portrait) {
+  select { font-size: 2.5em; }
+}
